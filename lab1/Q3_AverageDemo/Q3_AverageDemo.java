@@ -7,3 +7,7 @@ public class Q3_AverageDemo{
 
 	//method that calculates the average of the numbers in an array
 	public static double calculateAverage(double[] values){
+				
+		double result=0.0;
+		for (int i=0; i<values.length;i++){
+			result+=values[i];
