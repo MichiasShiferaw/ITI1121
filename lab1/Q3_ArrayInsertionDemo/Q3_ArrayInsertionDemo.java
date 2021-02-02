@@ -24,3 +24,13 @@ public class Q3_ArrayInsertionDemo{
 
 			System.out.println(beforeArr[i]);
 		}
+
+
+		int val=15;
+		int ind=3;
+
+		int [] afterArr=insertIntoArray(beforeArr,ind,val);
+
+		System.out.println("After insertion of "+val+" at position "+ind+" :");
+
+		for(int j=0;j<afterArr.length;j++){
