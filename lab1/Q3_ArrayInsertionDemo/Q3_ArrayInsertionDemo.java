@@ -12,3 +12,8 @@ public class Q3_ArrayInsertionDemo{
 		}
 		return(newArr);
 	}
+
+
+	public static void main(String[] args){
+
+		int beforeArr[]={1,5,4,7,9,6};
