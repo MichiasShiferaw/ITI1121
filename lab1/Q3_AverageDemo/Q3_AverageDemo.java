@@ -11,3 +11,9 @@ public class Q3_AverageDemo{
 		double result=0.0;
 		for (int i=0; i<values.length;i++){
 			result+=values[i];
+			
+		}
+		result=result/(values.length);
+		return result;
+	}
+}
