@@ -17,3 +17,10 @@ public class Q3_ArrayInsertionDemo{
 	public static void main(String[] args){
 
 		int beforeArr[]={1,5,4,7,9,6};
+
+		System.out.println("Array before insertion: ");
+
+		for(int i=0;i<beforeArr.length;i++){
+
+			System.out.println(beforeArr[i]);
+		}
