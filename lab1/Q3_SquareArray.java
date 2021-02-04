@@ -6,3 +6,5 @@ public class Q3_SquareArray{
 		for(int i = 0; i < anArray.length; i++){
 			anArray[i] = i * i;
 		}
+		return anArray;
+	}
