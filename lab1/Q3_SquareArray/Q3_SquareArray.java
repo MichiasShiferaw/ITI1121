@@ -10,3 +10,9 @@ public class Q3_SquareArray{
 	}
 
 	public static void main(String[] args){
+		int[] arrayToPrint = createArray(13);
+		for(int i = 0; i < arrayToPrint.length; i++){
+			System.out.println("value for index " + i + " is: " + arrayToPrint[i]);
+		}
+	}
+}
