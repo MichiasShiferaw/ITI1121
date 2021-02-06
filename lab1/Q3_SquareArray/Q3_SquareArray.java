@@ -8,3 +8,5 @@ public class Q3_SquareArray{
 		}
 		return anArray;
 	}
+
+	public static void main(String[] args){
