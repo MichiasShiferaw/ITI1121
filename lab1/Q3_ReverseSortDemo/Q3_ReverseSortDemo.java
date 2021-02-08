@@ -9,3 +9,7 @@ public class Q3_ReverseSortDemo {
 
 	//method that sorts a char array into its reverse alphabetical order
 	public static void reverseSort(char[] values){
+		//char arr[] = str.toCharArray();
+		char temp =0;
+		//char [] values;
+		for (int i = values.length - 1; i >= 0; i--) {
