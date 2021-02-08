@@ -13,3 +13,11 @@ public class Q3_ReverseSortDemo {
 		char temp =0;
 		//char [] values;
 		for (int i = values.length - 1; i >= 0; i--) {
+		    for (int j = values.length - 1; j >= 0; j--) {
+			if (values[j] > values[i]) {
+			    temp = values[i];
+			    values[i] = values[j];
+			    values[j] = temp;
+			}
+		    }
+		}
