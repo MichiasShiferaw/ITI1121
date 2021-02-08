@@ -6,3 +6,6 @@ public class Q3_ReverseSortDemo {
 		for (int i = 0 ; i < unorderedLetters.length; i++ )
 			System.out.println(unorderedLetters[i]);
 	}
+
+	//method that sorts a char array into its reverse alphabetical order
+	public static void reverseSort(char[] values){
