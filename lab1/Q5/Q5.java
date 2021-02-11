@@ -23,3 +23,6 @@ public class Q5{
 				testFlag = false;
 			}
 		}
+
+		if(testFlag ){
+			System.out.println("All tests are successful");
