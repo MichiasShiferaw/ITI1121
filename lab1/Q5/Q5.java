@@ -26,3 +26,6 @@ public class Q5{
 
 		if(testFlag ){
 			System.out.println("All tests are successful");
+		} else {
+			System.out.println("Not all tests are successful");
+		}
