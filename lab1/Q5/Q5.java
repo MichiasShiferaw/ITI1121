@@ -13,3 +13,13 @@ public class Q5{
 		test[5]  = (getFibonacci(3) == 2);
 		test[6]  = (getFibonacci(5) == 5);
 		test[7]  = (getFibonacci(8) == 21);
+
+		boolean testFlag=true;
+		for (int i = 0; i < test.length; i++){
+			if(test[i]){
+				System.out.println("test " + i + " passed");
+			} else {
+				System.out.println("test " + i + " failed");
+				testFlag = false;
+			}
+		}
