@@ -29,5 +29,4 @@ public class Q5{
 		} else {
 			System.out.println("Not all tests are successful");
 		}
-
 	}
