@@ -40,3 +40,4 @@ public class Q5{
 			prime = true;
 		}
 		int i = 2;
+		while(prime && x > i){
