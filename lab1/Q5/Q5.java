@@ -41,3 +41,5 @@ public class Q5{
 		}
 		int i = 2;
 		while(prime && x > i){
+			if(x % i == 0){
+				prime = false;
