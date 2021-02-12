@@ -30,3 +30,5 @@ public class Q5{
 			System.out.println("Not all tests are successful");
 		}
 	}
+	//method that determines if the number x is prime
+	public static boolean isPrime(int x){
