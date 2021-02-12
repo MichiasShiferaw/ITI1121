@@ -37,3 +37,5 @@ public class Q5{
 			prime = false;
 		}
 		if(x== 2){
+			prime = true;
+		}
