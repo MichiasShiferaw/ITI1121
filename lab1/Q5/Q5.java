@@ -39,3 +39,4 @@ public class Q5{
 		if(x== 2){
 			prime = true;
 		}
+		int i = 2;
