@@ -35,3 +35,5 @@ public class Q5{
 		boolean prime = true;
 		if(x <2 ){
 			prime = false;
+		}
+		if(x== 2){
