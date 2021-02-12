@@ -43,3 +43,7 @@ public class Q5{
 		while(prime && x > i){
 			if(x % i == 0){
 				prime = false;
+			}
+			i++;
+		}
+		return prime;
