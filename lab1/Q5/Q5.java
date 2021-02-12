@@ -32,3 +32,4 @@ public class Q5{
 	}
 	//method that determines if the number x is prime
 	public static boolean isPrime(int x){
+		boolean prime = true;
