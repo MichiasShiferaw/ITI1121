@@ -57,3 +57,5 @@ public class Q5{
 		if (position ==0 ) {
 			fibonacci = 0;
 		} else if (position == 1) {
+			fibonacci = 1;
+		} else {
