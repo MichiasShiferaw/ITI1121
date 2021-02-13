@@ -63,3 +63,9 @@ public class Q5{
 				fibonacci = num+num2 ;
 				num = num2;
 				num2 = fibonacci;
+			}
+		}
+		return fibonacci;
+	}
+
+}
