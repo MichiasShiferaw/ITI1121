@@ -53,3 +53,5 @@ public class Q5{
 		int num = 0;
 		int num2 = 1;
 		int fibonacci = 0;
+
+		if (position ==0 ) {
