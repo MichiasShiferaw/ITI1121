@@ -49,3 +49,7 @@ public class Q5{
 		return prime;
 	//returns the fibonacci number at the position in parameter
 	public static int getFibonacci(int position) {
+        
+		int num = 0;
+		int num2 = 1;
+		int fibonacci = 0;
