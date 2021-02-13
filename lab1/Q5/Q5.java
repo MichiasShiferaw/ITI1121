@@ -61,3 +61,5 @@ public class Q5{
 		} else {
 			for (int i = 2; i<=position;i++ ) {
 				fibonacci = num+num2 ;
+				num = num2;
+				num2 = fibonacci;
