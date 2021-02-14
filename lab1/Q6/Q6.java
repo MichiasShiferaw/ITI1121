@@ -13,3 +13,5 @@ public class Q6{
 		int pass=calculateNumberPassed(notes);
 		int failed=calculateNumberFailed(notes);
 		System.out.println("Average grades is "+ avg_val+ "\nMedian of grades is "+ mid);
+		if (failed>0){
+			System.out.println("Number of failed students are "+ failed);
