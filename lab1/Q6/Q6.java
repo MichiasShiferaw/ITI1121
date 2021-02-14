@@ -12,3 +12,4 @@ public class Q6{
 		double mid=calculateMedian(notes);
 		int pass=calculateNumberPassed(notes);
 		int failed=calculateNumberFailed(notes);
+		System.out.println("Average grades is "+ avg_val+ "\nMedian of grades is "+ mid);
