@@ -17,3 +17,5 @@ public class Q6{
 			System.out.println("Number of failed students are "+ failed);
 		}else{
 			System.out.println("No One Failed");
+		}
+		if (pass>0){
