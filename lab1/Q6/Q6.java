@@ -28,3 +28,6 @@ public class Q6{
 	public static double calculateAverage(double[] notes){
 		//your code here
 		double sum_mark=0.0;
+		int num= notes.length;
+		for (int i=0; i<num; i++){
+			sum_mark+= notes[i];
