@@ -23,3 +23,5 @@ public class Q6{
 		}else{
 			System.out.println("No One Passed");
 		}	
+
+	}
