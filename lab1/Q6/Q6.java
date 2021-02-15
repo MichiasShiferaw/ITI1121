@@ -15,3 +15,5 @@ public class Q6{
 		System.out.println("Average grades is "+ avg_val+ "\nMedian of grades is "+ mid);
 		if (failed>0){
 			System.out.println("Number of failed students are "+ failed);
+		}else{
+			System.out.println("No One Failed");
