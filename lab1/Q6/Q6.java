@@ -25,3 +25,6 @@ public class Q6{
 		}	
 
 	}
+	public static double calculateAverage(double[] notes){
+		//your code here
+		double sum_mark=0.0;
