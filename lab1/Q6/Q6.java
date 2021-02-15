@@ -21,3 +21,5 @@ public class Q6{
 		if (pass>0){
 			System.out.println("Number of passed students are "+ pass);
 		}else{
+			System.out.println("No One Passed");
+		}	
