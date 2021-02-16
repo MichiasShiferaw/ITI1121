@@ -37,3 +37,5 @@ public class Q6{
 
 	public static double calculateMedian(double[] notes){
 		int num=notes.length;
+		for (int i = 0; i < notes.length; i++) {
+			for (int j = i + 1; j < notes.length; j++) {
