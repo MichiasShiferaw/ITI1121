@@ -34,3 +34,6 @@ public class Q6{
 		}
 		return (sum_mark/num);
 	}
+
+	public static double calculateMedian(double[] notes){
+		int num=notes.length;
