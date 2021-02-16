@@ -39,3 +39,5 @@ public class Q6{
 		int num=notes.length;
 		for (int i = 0; i < notes.length; i++) {
 			for (int j = i + 1; j < notes.length; j++) {
+				double temp = 0.0;
+				if (notes[i] > notes[j]) {
