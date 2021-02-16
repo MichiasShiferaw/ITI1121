@@ -31,3 +31,6 @@ public class Q6{
 		int num= notes.length;
 		for (int i=0; i<num; i++){
 			sum_mark+= notes[i];
+		}
+		return (sum_mark/num);
+	}
