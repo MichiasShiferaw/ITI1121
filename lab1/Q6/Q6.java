@@ -43,3 +43,5 @@ public class Q6{
 				if (notes[i] > notes[j]) {
 					temp = notes[i];
 					notes[i] = notes[j];
+					notes[j] = temp;
+				}
