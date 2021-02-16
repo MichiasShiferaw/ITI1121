@@ -45,3 +45,5 @@ public class Q6{
 					notes[i] = notes[j];
 					notes[j] = temp;
 				}
+			}
+		}
