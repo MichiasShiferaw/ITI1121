@@ -41,3 +41,5 @@ public class Q6{
 			for (int j = i + 1; j < notes.length; j++) {
 				double temp = 0.0;
 				if (notes[i] > notes[j]) {
+					temp = notes[i];
+					notes[i] = notes[j];
