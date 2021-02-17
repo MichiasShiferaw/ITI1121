@@ -67,3 +67,6 @@ public class Q6{
 		int counter=0;
 		for (int i = 0; i < notes.length; i++) {
 			if (notes[i]>=50){
+				counter++;
+			}
+		}
