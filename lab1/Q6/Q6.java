@@ -50,3 +50,5 @@ public class Q6{
 		if (num%2==0){
 			return((notes[(num-1)/2] + notes[num/2])/2.0);
 		}
+		return notes[num/2];
+	}
