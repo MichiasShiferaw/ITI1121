@@ -52,3 +52,6 @@ public class Q6{
 		}
 		return notes[num/2];
 	}
+
+	public static int calculateNumberFailed(double[] notes){
+		int counter=0;
