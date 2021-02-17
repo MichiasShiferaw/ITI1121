@@ -62,3 +62,6 @@ public class Q6{
 		}
 		return counter;
 	}
+
+	public static int calculateNumberPassed(double[] notes){
+		int counter=0;
