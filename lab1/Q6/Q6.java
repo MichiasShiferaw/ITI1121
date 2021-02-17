@@ -55,3 +55,5 @@ public class Q6{
 
 	public static int calculateNumberFailed(double[] notes){
 		int counter=0;
+		for (int i = 0; i < notes.length; i++) {
+			if (notes[i]<50){
