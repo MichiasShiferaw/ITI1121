@@ -60,3 +60,5 @@ public class Q6{
 				counter++;
 			}
 		}
+		return counter;
+	}
