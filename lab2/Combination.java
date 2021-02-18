@@ -20,3 +20,5 @@ public class Combination {
     }
     // An instance method that compares this object
     // to other.
+    // Always check that other is not null, i)
+    // an error would occur if you tried to
