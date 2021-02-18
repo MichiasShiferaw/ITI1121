@@ -18,3 +18,5 @@ public class Combination {
         this.second = second;
         this.third = third;
     }
+    // An instance method that compares this object
+    // to other.
