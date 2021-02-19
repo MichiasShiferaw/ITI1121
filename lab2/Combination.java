@@ -25,3 +25,5 @@ public class Combination {
     // access other.first if other was null, ii)
     // null is a valid argument, the method should
     // simply return false.
+
+    public boolean equals( Combination other ) {
