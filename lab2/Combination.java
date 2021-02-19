@@ -29,3 +29,5 @@ public class Combination {
     public boolean equals( Combination other ) {
         // Put your code here and remove the line below
 		if (other==null){
+			return false;
+		}
