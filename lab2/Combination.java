@@ -22,3 +22,5 @@ public class Combination {
     // to other.
     // Always check that other is not null, i)
     // an error would occur if you tried to
+    // access other.first if other was null, ii)
+    // null is a valid argument, the method should
