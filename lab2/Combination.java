@@ -33,3 +33,5 @@ public class Combination {
 		}
         return (( first == other.first ) &&( second == other.second ) &&( third == other.third ) );
     }
+
+    // Returns a String representation of this Combination.
