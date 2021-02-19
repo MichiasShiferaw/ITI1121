@@ -31,3 +31,5 @@ public class Combination {
 		if (other==null){
 			return false;
 		}
+        return (( first == other.first ) &&( second == other.second ) &&( third == other.third ) );
+    }
