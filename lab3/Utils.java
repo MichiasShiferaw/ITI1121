@@ -18,3 +18,6 @@ public class Utils {
 	boolean valid = true; // True if the pre-conditions are satistified
 
 	// Testing pre-conditions
+
+	if ( in == null || what == null || with == null ) {
+	    valid = false;
