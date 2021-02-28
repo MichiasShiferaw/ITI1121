@@ -21,3 +21,6 @@ public class Utils {
 
 	if ( in == null || what == null || with == null ) {
 	    valid = false;
+	} else {
+	    for ( int i=0; valid == true && i<in.length; i++ ) {
+		if ( in[ i ] == null ) {
