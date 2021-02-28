@@ -27,3 +27,6 @@ public class Utils {
 		    valid = false;
 		    }
 	    }
+	    if ( valid ) {
+		    if ( what.length != with.length ) {
+		        valid = false;
