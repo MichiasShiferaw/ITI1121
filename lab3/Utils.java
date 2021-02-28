@@ -11,3 +11,10 @@ public class Utils {
      * @return a new array idententical to 'in' except that all the occurrences of words
      * found in 'what' have been replaced by the corresponding word from 'with'.
      */
+
+    public static String[] findAndReplace( String[] in, String[] what, String[] with ) {
+
+        String[] out = null; // The new array to be returned
+	boolean valid = true; // True if the pre-conditions are satistified
+
+	// Testing pre-conditions
