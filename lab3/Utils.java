@@ -2,7 +2,7 @@ public class Utils {
 
     /**
      * Returns a copy of the array in where each word occurring in the array
-     * 'what' has been replaced by the word occurring in the same positio
+     * 'what' has been replaced by the word occurring in the same position
      * in the array 'with'.
      *
      * @param in an array of Strings;
