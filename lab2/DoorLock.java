@@ -8,3 +8,8 @@ public class DoorLock {
     private boolean activated;
     private int numberOfAttempts;
 
+    // Constructor.
+    public DoorLock( Combination combination ) {
+        // Your code here
+        this.combination = combination;
+        open = false;
