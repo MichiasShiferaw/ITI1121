@@ -22,3 +22,12 @@ public class DoorLock {
     public boolean isOpen() {
         return open;
     }
+    public boolean isActivated() {
+        return activated;
+    }
+
+    // Notice that numberOfAttempts is compared to
+    // MAX_NUMBER_OF_ATTEMPTS only when its value has been
+    // incremented, Also, numberOfAttempts should be set to zero when
+    // activated is false.  Problems related to the combined action of
+    // these two variables have caused problems for some students.
