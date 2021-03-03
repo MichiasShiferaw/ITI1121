@@ -31,3 +31,7 @@ public class DoorLock {
     // incremented, Also, numberOfAttempts should be set to zero when
     // activated is false.  Problems related to the combined action of
     // these two variables have caused problems for some students.
+
+   public boolean open( Combination combination ) {
+        // Put your code here, then remove the line below.
+        if (activated==true) { 
