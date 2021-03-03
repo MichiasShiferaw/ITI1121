@@ -13,3 +13,12 @@ public class DoorLock {
         // Your code here
         this.combination = combination;
         open = false;
+        activated = true;
+        numberOfAttempts = 0;
+    }
+
+    // Access methods.
+
+    public boolean isOpen() {
+        return open;
+    }
