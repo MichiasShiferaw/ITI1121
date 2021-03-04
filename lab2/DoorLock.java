@@ -44,3 +44,6 @@ public class DoorLock {
         	if ( numberOfAttempts >= MAX_NUMBER_OF_ATTEMPTS ) {
         	    activated = false;
         	    numberOfAttempts = 0;
+        	}
+            }
+        }
