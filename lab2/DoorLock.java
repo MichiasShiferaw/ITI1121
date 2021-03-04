@@ -39,3 +39,5 @@ public class DoorLock {
             if ( this.combination.equals( combination ) ) {
         	open = true;
         	numberOfAttempts = 0;
+            } else {
+        	numberOfAttempts++;
