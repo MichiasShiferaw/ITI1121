@@ -49,3 +49,9 @@ public class DoorLock {
         }
         return open && activated;
     }
+
+      
+      
+    public void activate( Combination c ) {
+        // Put your code here, then remove this comment.
+        if (combination.equals(c)) {   
