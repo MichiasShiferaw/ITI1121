@@ -35,3 +35,7 @@ public class DoorLock {
    public boolean open( Combination combination ) {
         // Put your code here, then remove the line below.
         if (activated==true) { 
+
+            if ( this.combination.equals( combination ) ) {
+        	open = true;
+        	numberOfAttempts = 0;
