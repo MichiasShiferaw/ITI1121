@@ -55,3 +55,6 @@ public class DoorLock {
     public void activate( Combination c ) {
         // Put your code here, then remove this comment.
         if (combination.equals(c)) {   
+            activated = true;
+        }
+    }
