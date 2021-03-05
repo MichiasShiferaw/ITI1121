@@ -35,3 +35,4 @@ public class Combination {
     }
 
     // Returns a String representation of this Combination.
+   public String toString() {
