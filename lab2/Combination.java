@@ -37,3 +37,4 @@ public class Combination {
     // Returns a String representation of this Combination.
    public String toString() {
         // Put your code here and remove the line below
+        return first + ":" + second + ":" + third;
