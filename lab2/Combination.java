@@ -39,3 +39,4 @@ public class Combination {
         // Put your code here and remove the line below
         return first + ":" + second + ":" + third;
     }
+}
