@@ -17,3 +17,8 @@ public class Rational {
 	this.denominator = denominator;
 	reduce();
     }
+    // getters
+
+    public int getNumerator() {
+	return numerator;
+    }
