@@ -12,3 +12,8 @@ public class Rational {
 	if (denominator < 0) {
 	    denominator = -1 * denominator;
 	    numerator = -1 * numerator;
+	}
+	this.numerator = numerator;
+	this.denominator = denominator;
+	reduce();
+    }
