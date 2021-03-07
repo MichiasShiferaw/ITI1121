@@ -28,3 +28,5 @@ public class Rational {
     public Rational plus(Rational other) {
 	int newDenominator = denominator * other.denominator;
 	int newNumerator = numerator * other.denominator;
+	int newOtherNumerator = other.numerator * denominator;
+	int sum = newNumerator + newOtherNumerator;
