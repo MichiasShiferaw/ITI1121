@@ -26,3 +26,5 @@ public class Rational {
 	return denominator;
     }
     public Rational plus(Rational other) {
+	int newDenominator = denominator * other.denominator;
+	int newNumerator = numerator * other.denominator;
