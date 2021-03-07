@@ -25,3 +25,4 @@ public class Rational {
     public int getDenominator() {
 	return denominator;
     }
+    public Rational plus(Rational other) {
