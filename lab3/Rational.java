@@ -22,3 +22,6 @@ public class Rational {
     public int getNumerator() {
 	return numerator;
     }
+    public int getDenominator() {
+	return denominator;
+    }
