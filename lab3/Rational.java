@@ -30,3 +30,5 @@ public class Rational {
 	int newNumerator = numerator * other.denominator;
 	int newOtherNumerator = other.numerator * denominator;
 	int sum = newNumerator + newOtherNumerator;
+	return new Rational(sum, newDenominator);
+    }
