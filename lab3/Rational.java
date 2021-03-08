@@ -62,3 +62,8 @@ public class Rational {
 
 	int thisNewNum = other.denominator * numerator;
 	int otherNewNum = other.numerator * denominator;
+
+
+	return thisNewNum - otherNewNum;
+
+    }
