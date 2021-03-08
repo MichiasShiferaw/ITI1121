@@ -67,3 +67,6 @@ public class Rational {
 	return thisNewNum - otherNewNum;
 
     }
+
+    public boolean equals(Rational other) {
+		
