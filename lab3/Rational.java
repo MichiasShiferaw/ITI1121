@@ -36,3 +36,8 @@ public class Rational {
     public static Rational plus(Rational a, Rational b) {
 	return a.plus( b );
     }	
+
+	
+    private void reduce() {
+	if (numerator == 0) {
+	    denominator = 1;
