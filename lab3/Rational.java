@@ -33,4 +33,6 @@ public class Rational {
 	return new Rational(sum, newDenominator);
     }
 
-	
+    public static Rational plus(Rational a, Rational b) {
+	return a.plus( b );
+    }	
