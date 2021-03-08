@@ -50,3 +50,10 @@ public class Rational {
 
     // Euclid's algorithm for calculating the greatest common divisor
     private int gcd(int a, int b) {
+	while (a != b)
+	    if (a > b)
+		a = a - b;
+	    else
+		b = b - a;
+	return a;
+    }
