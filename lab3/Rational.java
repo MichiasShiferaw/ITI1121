@@ -32,3 +32,5 @@ public class Rational {
 	int sum = newNumerator + newOtherNumerator;
 	return new Rational(sum, newDenominator);
     }
+
+	
