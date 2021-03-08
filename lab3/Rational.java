@@ -41,3 +41,8 @@ public class Rational {
     private void reduce() {
 	if (numerator == 0) {
 	    denominator = 1;
+	} else {
+	    int common = gcd(Math.abs(numerator), denominator);
+	    numerator = numerator/common;
+	    denominator = denominator/common;
+	}
