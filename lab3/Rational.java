@@ -70,3 +70,5 @@ public class Rational {
 
     public boolean equals(Rational other) {
 		
+	if (numerator == other.numerator && denominator == other.denominator)
+	    return true;
