@@ -57,3 +57,8 @@ public class Rational {
 		b = b - a;
 	return a;
     }
+
+    public int compareTo(Rational other) {
+
+	int thisNewNum = other.denominator * numerator;
+	int otherNewNum = other.numerator * denominator;
