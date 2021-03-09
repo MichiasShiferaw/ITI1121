@@ -73,3 +73,5 @@ public class Rational {
 		
 	if (numerator == other.numerator && denominator == other.denominator)
 	    return true;
+	return a.plus( b );
+    }
