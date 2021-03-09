@@ -79,3 +79,6 @@ public class Rational {
     // Transforms this number into its reduced form
 
     private void reduce() {
+	if (numerator == 0) {
+	    denominator = 1;
+	} else {
