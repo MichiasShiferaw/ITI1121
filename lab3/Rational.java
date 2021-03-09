@@ -75,3 +75,7 @@ public class Rational {
 	    return true;
 	return a.plus( b );
     }
+
+    // Transforms this number into its reduced form
+
+    private void reduce() {
