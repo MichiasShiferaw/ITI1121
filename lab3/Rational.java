@@ -34,6 +34,7 @@ public class Rational {
     }
 
     public static Rational plus(Rational a, Rational b) {
+    public static Rational plus(Rational a, Rational b) {
 	return a.plus( b );
     }	
 
