@@ -86,3 +86,6 @@ public class Rational {
 	    numerator = numerator/common;
 	    denominator = denominator/common;
 	}
+    }
+
+    // Euclid's algorithm for calculating the greatest common divisor
