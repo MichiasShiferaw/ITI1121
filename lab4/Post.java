@@ -8,3 +8,7 @@ public class Post implements Likeable, Comparable<Post> {
     private String userName;
     public Post(String userName) {
       likes = 0;
+      timeStamp = Calendar.getInstance().getTime();
+      this.userName = userName;
+      // Your code here
+    }
