@@ -14,3 +14,5 @@ public class Post implements Likeable, Comparable<Post> {
     }
 
     public String getUserName() {
+	    return userName;
+    }
