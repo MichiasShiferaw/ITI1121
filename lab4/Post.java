@@ -12,3 +12,5 @@ public class Post implements Likeable, Comparable<Post> {
       this.userName = userName;
       // Your code here
     }
+
+    public String getUserName() {
