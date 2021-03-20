@@ -26,3 +26,6 @@ public class Post implements Likeable, Comparable<Post> {
     	str = getClass().getName() + ": " + timeStamp + ", " + userName + ", likes = " + likes;
     	return  str;
     }
+    public void like(){
+      likes=likes+1;
+    }
