@@ -20,3 +20,9 @@ public class Post implements Likeable, Comparable<Post> {
     public Date getTimeStamp() {
 	    return timeStamp;
     }
+
+    public String toString() {
+    	String str = new String();
+    	str = getClass().getName() + ": " + timeStamp + ", " + userName + ", likes = " + likes;
+    	return  str;
+    }
