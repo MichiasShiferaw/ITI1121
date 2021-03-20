@@ -29,3 +29,6 @@ public class Post implements Likeable, Comparable<Post> {
     public void like(){
       likes=likes+1;
     }
+    public int getLikes(){
+      return likes;
+    }
