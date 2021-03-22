@@ -36,3 +36,9 @@ public class Post implements Likeable, Comparable<Post> {
     public int compareTo(Post other){
       return (this.timeStamp.compareTo(other.timeStamp));
   }
+
+
+  public boolean isPopular(){
+  		// Your code here.
+      return (likes>100);
+  	}
