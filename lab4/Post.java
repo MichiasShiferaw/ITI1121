@@ -32,3 +32,7 @@ public class Post implements Likeable, Comparable<Post> {
     public int getLikes(){
       return likes;
     }
+
+    public int compareTo(Post other){
+      return (this.timeStamp.compareTo(other.timeStamp));
+  }
