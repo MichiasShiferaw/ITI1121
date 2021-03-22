@@ -7,3 +7,5 @@ public class PhotoPost extends Post {
       // Your code here.
       super(userName);
       this.fileName=fileName;
+      this.caption= caption;
+    }
