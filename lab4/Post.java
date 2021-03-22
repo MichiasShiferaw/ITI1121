@@ -42,3 +42,5 @@ public class Post implements Likeable, Comparable<Post> {
   		// Your code here.
       return (likes>100);
   	}
+
+}
