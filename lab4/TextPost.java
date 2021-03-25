@@ -15,3 +15,6 @@ public class TextPost extends Post {
 
     public String toString() {
     	String str = new String();	
+    	str = super.toString() + ", " + message;
+    	return  str;
+    }
