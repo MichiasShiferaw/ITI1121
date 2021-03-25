@@ -8,3 +8,7 @@ public class TextPost extends Post {
       super(userName);
       this.message=message;
     }
+
+    public String getMessage() {
+	     return message;
+    } 
