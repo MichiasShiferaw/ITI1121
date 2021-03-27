@@ -89,3 +89,5 @@ public class Rational {
     }
 
     // Euclid's algorithm for calculating the greatest common divisor
+
+    public String toString() {
