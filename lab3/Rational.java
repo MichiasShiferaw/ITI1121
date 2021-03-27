@@ -97,3 +97,5 @@ public class Rational {
 	} else {
 	    result = numerator + "/" + denominator;
 	}
+	return result;
+    }
