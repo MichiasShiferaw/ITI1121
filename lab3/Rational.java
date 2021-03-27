@@ -93,3 +93,5 @@ public class Rational {
     public String toString() {
 	String result;
 	if (denominator == 1) {
+	    result = Integer.toString(numerator);
+	} else {
