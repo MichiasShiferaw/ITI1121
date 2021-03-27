@@ -95,3 +95,5 @@ public class Rational {
 	if (denominator == 1) {
 	    result = Integer.toString(numerator);
 	} else {
+	    result = numerator + "/" + denominator;
+	}
