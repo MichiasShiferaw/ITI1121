@@ -12,3 +12,12 @@ public class NewsFeed {
 
 
     public void add(Post message) {
+		// Your code here.
+		if (size == MAX_SIZE) {
+		  System.out.println("Max size reached");
+		  return;
+		}
+		this.messages[size++] = message;
+
+
+    }
