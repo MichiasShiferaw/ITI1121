@@ -10,3 +10,5 @@ public class PhotoPost extends Post {
       this.caption= caption;
     }
 public String getFileName() {
+	     return fileName;
+    }
