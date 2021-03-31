@@ -9,3 +9,6 @@ public class NewsFeed {
 		this.size=0;
 		this.messages = new Post[MAX_SIZE];
     }
+
+
+    public void add(Post message) {
