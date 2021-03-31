@@ -16,3 +16,6 @@ public String getFileName() {
     	String str = new String();
     	str = super.toString() + ", " + fileName + ", " + caption;
     	return str;
+    }
+
+}
