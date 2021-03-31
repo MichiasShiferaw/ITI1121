@@ -12,3 +12,7 @@ public class PhotoPost extends Post {
 public String getFileName() {
 	     return fileName;
     }
+    public String toString() {
+    	String str = new String();
+    	str = super.toString() + ", " + fileName + ", " + caption;
+    	return str;
