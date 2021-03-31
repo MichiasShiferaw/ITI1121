@@ -9,3 +9,4 @@ public class PhotoPost extends Post {
       this.fileName=fileName;
       this.caption= caption;
     }
+public String getFileName() {
