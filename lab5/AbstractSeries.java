@@ -7,3 +7,6 @@ public abstract class AbstractSeries implements Series {
         //using next() method, assigning next k numbers to array
         for (int i = 0; i < k; i++) {
             nextSums[i] = next();
+        }
+        //returning array
+        return nextSums;
