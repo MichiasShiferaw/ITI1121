@@ -10,3 +10,5 @@ public abstract class AbstractSeries implements Series {
         }
         //returning array
         return nextSums;
+    }
+}
