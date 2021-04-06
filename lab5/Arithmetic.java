@@ -16,3 +16,10 @@ public class Arithmetic extends AbstractSeries {
         return currentSum;        
         
     }
+    public Arithmetic() {
+        //setting sum to 0 and n to 1
+        currentSum=0;
+
+        n=1;
+    }
+}
