@@ -27,3 +27,8 @@ public class Book {
 	return year;
         // Your code here
     }
+
+    public boolean equals(Object other) {
+        if (this == other) return true;
+        if (other == null || getClass() != other.getClass()) return false;
+        Book book = (Book) other;
