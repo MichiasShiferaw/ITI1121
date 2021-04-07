@@ -17,3 +17,8 @@ public class Book {
 	return author;
         // Your code here
     }
+
+    public String getTitle() {
+ 	return title;
+        // Your code here
+    }
