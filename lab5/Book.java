@@ -22,3 +22,8 @@ public class Book {
  	return title;
         // Your code here
     }
+
+    public int getYear() {
+	return year;
+        // Your code here
+    }
