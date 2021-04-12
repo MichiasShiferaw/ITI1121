@@ -5,3 +5,5 @@ public class Geometric extends AbstractSeries {
 		sum += addend;
 		addend *= 0.5;
 		cache.add(sum);
+		return sum;
+	}
