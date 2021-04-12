@@ -7,3 +7,4 @@ public class Geometric extends AbstractSeries {
 		cache.add(sum);
 		return sum;
 	}
+}
