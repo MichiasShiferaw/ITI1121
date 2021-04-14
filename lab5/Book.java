@@ -35,3 +35,6 @@ public class Book {
         if (author==null||title==null){
             if (author!=null){
                 return year == book.year && author.equals(book.author) && title==(book.title); 
+
+            }else if (title!=null) {
+                return year == book.year && author==(book.author) && title.equals(book.title);
