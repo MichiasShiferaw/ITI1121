@@ -45,3 +45,5 @@ public class Book {
             
 
         }
+        return year == book.year && author.equals(book.author) && title.equals(book.title);
+    }
