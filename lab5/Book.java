@@ -40,3 +40,4 @@ public class Book {
                 return year == book.year && author==(book.author) && title.equals(book.title);
 
             } else{
+                return year == book.year && author==(book.author) && title==(book.title);
