@@ -41,3 +41,7 @@ public class Book {
 
             } else{
                 return year == book.year && author==(book.author) && title==(book.title);
+            }
+            
+
+        }
