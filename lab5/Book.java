@@ -38,3 +38,5 @@ public class Book {
 
             }else if (title!=null) {
                 return year == book.year && author==(book.author) && title.equals(book.title);
+
+            } else{
