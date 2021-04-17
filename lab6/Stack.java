@@ -1,4 +1,21 @@
-    public abstract E peek();
+public interface Stack<E> {
+
+    /**
+     * Tests if this Stack is empty.
+     *
+     * @return true if this Stack is empty; and false otherwise.
+     */
+
+    public abstract boolean isEmpty();
+
+    /**
+     * Returns a reference to the top element; does not change
+     * the state of this Stack.
+     *
+     * @return The top element of this stack without removing it.
+     */
+
+public abstract E peek();
 
     /**
      * Removes and returns the element at the top of this stack.
