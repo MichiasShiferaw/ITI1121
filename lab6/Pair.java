@@ -1,4 +1,8 @@
-    public Integer getValue() {
+    public String getKey() {
+        return key;
+    }
+
+public Integer getValue() {
         return value;
     }
 
