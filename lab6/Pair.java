@@ -1,4 +1,10 @@
-    public String getKey() {
+    public Pair(String key, Integer value) {
+        this.key = key;
+        this.value = value;
+    }
+ 
+
+public String getKey() {
         return key;
     }
 
