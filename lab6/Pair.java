@@ -1,4 +1,10 @@
-    public Pair(String key, Integer value) {
+public class Pair {
+
+    private final String key;
+    private Integer value;
+
+    
+public Pair(String key, Integer value) {
         this.key = key;
         this.value = value;
     }
