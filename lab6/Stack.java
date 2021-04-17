@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Marcel Turcotte, Université d'Ottawa/University of Ottawa
+ */
+
 public interface Stack<E> {
 
     /**
