@@ -26,3 +26,9 @@ public class OrderedList implements OrderedStructure {
         // Your code here.
         throw new UnsupportedOperationException( "not implemented yet!" );
     }
+    // Calculates the size of the list
+
+    public int size() {
+      	// Remove line below and add your implementation.
+        throw new UnsupportedOperationException( "not implemented yet!" );
+    }
