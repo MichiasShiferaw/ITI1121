@@ -16,3 +16,13 @@ public class OrderedList implements OrderedStructure {
       	    this.next = next;
       	}
     }
+    // Instance variables
+
+    private Node head;
+
+    // Representation of the empty list.
+
+    public OrderedList() {
+        // Your code here.
+        throw new UnsupportedOperationException( "not implemented yet!" );
+    }
