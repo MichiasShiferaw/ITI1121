@@ -48,3 +48,8 @@ public class OrderedList implements OrderedStructure {
         // Remove line below and add your implementation.
         throw new UnsupportedOperationException( "not implemented yet!" );
     }
+
+        public void merge( OrderedList other ) {
+      // Remove line below and add your implementation.
+      throw new UnsupportedOperationException( "not implemented yet!" );
+    }
