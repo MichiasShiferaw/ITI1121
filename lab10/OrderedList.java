@@ -32,3 +32,9 @@ public class OrderedList implements OrderedStructure {
       	// Remove line below and add your implementation.
         throw new UnsupportedOperationException( "not implemented yet!" );
     }
+
+    
+    public Object get( int pos ) {
+        // Remove line below and add your implementation.
+        throw new UnsupportedOperationException( "not implemented yet!" );
+    }
