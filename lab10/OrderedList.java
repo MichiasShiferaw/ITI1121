@@ -33,6 +33,11 @@ public class OrderedList implements OrderedStructure {
         throw new UnsupportedOperationException( "not implemented yet!" );
     }
 
+    
+        public void remove( int pos ) {
+      // Remove line below and add your implementation.
+      throw new UnsupportedOperationException( "not implemented yet!" );
+    }
         public boolean add( Comparable o ) {
         // Remove line below and add your implementation.
         throw new UnsupportedOperationException( "not implemented yet!" );
