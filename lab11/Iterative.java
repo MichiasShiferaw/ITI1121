@@ -11,3 +11,6 @@ public class Iterative {
             j.add( BitList.ONE );
 
         } else {
+
+            while ( i.hasNext() ) {
+                int bit = i.next();
