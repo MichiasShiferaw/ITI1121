@@ -6,3 +6,5 @@ public class Iterative {
 
                 Iterator i = in.iterator();
         Iterator j = result.iterator();
+
+        if ( ! i.hasNext() ) {   
