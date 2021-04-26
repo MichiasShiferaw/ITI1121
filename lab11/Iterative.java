@@ -8,3 +8,6 @@ public class Iterative {
         Iterator j = result.iterator();
 
         if ( ! i.hasNext() ) {   
+            j.add( BitList.ONE );
+
+        } else {
