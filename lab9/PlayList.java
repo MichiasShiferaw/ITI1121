@@ -33,3 +33,11 @@ public class PlayList {
     public PlayList() {
         this( 10, 10 );
     }
+
+    
+        // Returns the number of elements currently stored in the PlayList
+  
+    public int getSize() {
+        return count;
+    }
+  
