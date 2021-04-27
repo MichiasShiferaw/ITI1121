@@ -41,3 +41,11 @@ public class PlayList {
         return count;
     }
   
+    public boolean addSong( Song song ) {
+
+        if ( song == null )
+            throw new IllegalArgumentException( "null is not a valid argument" );
+
+        for ( int i=0; i<count; i++ )
+            if ( songs[ i ].equals( song ) ) // songs[ i ] cannot be null
+                return false;
