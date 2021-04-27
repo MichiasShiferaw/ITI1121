@@ -24,3 +24,12 @@ public class PlayList {
     
         songs = new Song[ initialCapacity ];
         this.capacityIncrement = capacityIncrement;
+    }
+  
+    public PlayList( int initialCapacity ) {
+        this( initialCapacity, 10 );
+    }
+  
+    public PlayList() {
+        this( 10, 10 );
+    }
