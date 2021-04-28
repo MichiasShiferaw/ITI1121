@@ -49,3 +49,11 @@ public class PlayList {
         for ( int i=0; i<count; i++ )
             if ( songs[ i ].equals( song ) ) // songs[ i ] cannot be null
                 return false;
+        
+        if ( count == songs.length ) {
+
+            Song[] tmp = songs;
+            songs = new Song[ tmp.length + capacityIncrement ];
+            for ( int i=0; i< tmp.length; i++ )
+                songs[ i ] = tmp[ i ];
+        }
