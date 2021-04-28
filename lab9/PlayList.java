@@ -76,3 +76,7 @@ public class PlayList {
     public void sort( java.util.Comparator<Song> c ) {
         Arrays.sort( songs, c );
     }  
+
+    // Implementing our own sort method.
+
+    public void sort2( java.util.Comparator<Song> c ) {
