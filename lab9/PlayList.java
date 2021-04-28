@@ -57,3 +57,8 @@ public class PlayList {
             for ( int i=0; i< tmp.length; i++ )
                 songs[ i ] = tmp[ i ];
         }
+
+        songs[ count++ ] = song;
+        return true;
+    }
+  
