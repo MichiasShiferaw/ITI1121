@@ -69,3 +69,10 @@ public class PlayList {
 
         return songs[ index ];
     }
+
+    
+    // Arrays already has a sort method.
+
+    public void sort( java.util.Comparator<Song> c ) {
+        Arrays.sort( songs, c );
+    }  
