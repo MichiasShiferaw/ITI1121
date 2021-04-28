@@ -62,3 +62,10 @@ public class PlayList {
         return true;
     }
   
+    public Song getSongAt( int index ) {
+
+        if ( index < 0 || index >= count )
+            throw new IndexOutOfBoundsException( "" + index );
+
+        return songs[ index ];
+    }
